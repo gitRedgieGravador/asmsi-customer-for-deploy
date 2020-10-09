@@ -1,0 +1,15 @@
+#environment variables
+
+ACCESS_KEY_ID
+SECRET_ACCESS_KEY
+REGION
+
+RDS_HOSTNAME
+RDS_USERNAME
+RDS_PASSWORD
+RDS_DATABASE
+
+BASE_URL
+
+
+C:\Users\Public\Documents\xampp

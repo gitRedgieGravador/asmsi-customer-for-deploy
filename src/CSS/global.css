@@ -1,0 +1,293 @@
+/* all global css are found here. */
+
+/* .grid {
+    display: grid;
+    grid-template-columns: auto;
+} */
+.hw45 {
+  height: 45px !important;
+  width: 45px !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.gr-darken {
+  color: grey !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.underline--red {
+  text-decoration: underline !important;
+  text-decoration-color: red !important;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.black {
+  color: black !important;
+}
+
+.cursor {
+  cursor: pointer !important;
+}
+
+.x-hidden {
+  overflow-x: hidden;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.justify {
+  text-justify: distribute !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.transparent {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: transparent !important;
+}
+
+.bold {
+  font-weight: bolder !important;
+}
+
+.hund {
+  height: 100% !important;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.index-2 {
+  z-index: 5 ;
+}
+
+.index-1 {
+  z-index: -1 ;
+}
+/* this area is for page not found */
+
+.st404 {
+  position: relative;
+  margin-top: -5%;
+  font-size: 200px;
+  font-family: Georgia, serif;
+  font-weight: bolder;
+  color: black;
+  text-decoration: underline;
+}
+
+.errortext {
+  position: relative;
+  padding-top: 10%;
+  width: 30%;
+  height: 30%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.pagenotfound {
+  position: relative;
+  margin-top: -3%;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .v-card {
+    border: thin solid transparent !important;
+  }
+
+  .theme--light.v-card.v-card--outlined {
+    border: thin solid transparent !important;
+  }
+}
+
+/* .v-application .pl-3 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+} */
+@media only screen and (max-width: 600px) {
+  .st404 {
+    position: relative;
+    margin-top: -5%;
+    font-size: 100px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .errortext {
+    left: -7%;
+    position: relative;
+    padding-top: 10%;
+    width: 15%;
+    height: 15%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  .pagenotfound {
+    position: relative;
+    margin-top: -3%;
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: black;
+  }
+}
+
+.bottom-2 {
+  position: absolute;
+  bottom: 0px !important;
+  background-color: rgba(0, 0, 0) !important;
+  margin-bottom: 0px !important;
+  width: 100%;
+}
+
+
+.bottom-el {
+  position: absolute;
+  display: table-cell;
+  vertical-align: bottom;
+  /* bottom: 0 !important; */
+  /* margin-bottom: 1px !important; */
+}
+
+.grid-mobile {
+  display: grid !important;
+  grid-template-columns: auto auto;
+}
+
+/* page not found css end here */
+
+/* .v-btn--block:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+} */
+
+.brd-black {
+  border: solid 1px black !important;
+}
+
+.circle {
+  border-radius: 50% !important;
+}
+
+.ribbon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  overflow: hidden;
+}
+
+.ribbon span {
+  width: 180px;
+  padding: 5px 0px;
+  background: rgb(240, 0, 0, 0.7);
+  /*, 0.7*/
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: -38px;
+  transform: rotate(45deg);
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+}
+
+.ribbon::after,
+.ribbon::before {
+  content: "";
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid rgb(255, 0, 0, 0.3);
+  /* 0.3*/
+  border-left: 5px solid rgb(255, 0, 0, 0.3);
+  position: absolute;
+}
+
+.ribbon::before {
+  bottom: 0;
+  right: 0;
+}
+
+.ribbon::after {
+  top: 0;
+  left: 0;
+}
+
+
+
+.ribbon-bottom {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ribbon-bottom span {
+  width: 100%;
+  padding: 5px;
+  background: rgb(255, 0, 0, 0.8);
+  /*, 0.8*/
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.bg-img {
+  background-image: url("../assets/bluecover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -10px !important;
+  width: cover !important;
+  height: cover !important;
+  /* opacity: 0.6; */
+}
+
+.border-orange {
+  color: black !important;
+  border: orange 1px solid !important;
+}
+.bg-upper {
+  /* eaae51 --color */
+  background-image: url("../assets/upper2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -10px !important;
+  height: 100% !important;
+}
+
+.center-90 {
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  display: flex !important;
+  height: 90vh !important;
+}
