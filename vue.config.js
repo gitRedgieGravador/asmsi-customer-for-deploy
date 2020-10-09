@@ -7,6 +7,7 @@ module.exports = {
         "vue-tel-input-vuetify"
     ],
     devServer: {
+        port: 3232,
         before: configureAPI.bind(app)
     }
 }
